@@ -554,7 +554,7 @@ function loadQuiz(lesson) {
 
     document.getElementById("nextBtn").onclick = () => {
       const selected = document.querySelector('input[name="option"]:checked');
-      if (!selected) return alert("Please select an answer first.");
+      if (!selected) return alert("Answer ta dao👉🏻👈🏻");
       userAnswers[index] = parseInt(selected.value);
       currentQuestion++;
       if (currentQuestion < data.length) {
