@@ -568,7 +568,6 @@ function loadQuiz(lesson) {
   function showResults() {
     let score = 0;
     quizContainer.innerHTML = "";
-    resultsDiv.innerHTML = `<h2>You scored ${score}/${data.length}</h2><h3>Review:</h3>`;
     data.forEach((q, i) => {
       const correct = userAnswers[i] === q.answer;
       if (correct) score++;
