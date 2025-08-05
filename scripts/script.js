@@ -529,7 +529,259 @@ const quizzes = {
     question: "Which built-in function returns user input as a string?",
     options: ["read()", "scan()", "input()", "get()"],
     answer: 2
-  }]
+  }],
+  test:[
+  {
+    question: "What is the output of print(type(5.0))?",
+    options: ["int", "float", "str", "double"],
+    answer: 1
+  },
+  {
+    question: "What does print(\"Hello\" + \"World\") display?",
+    options: ["Hello World", "HelloWorld", "Hello+World", "Error"],
+    answer: 1
+  },
+  {
+    question: "What is the result of 5 // 2?",
+    options: ["2.5", "2", "3", "2.0"],
+    answer: 1
+  },
+  {
+    question: "Which keyword is used to define a function in Python?",
+    options: ["function", "def", "define", "func"],
+    answer: 1
+  },
+  {
+    question: "Which function is used to get input from the user?",
+    options: ["scan()", "input()", "get()", "fetch()"],
+    answer: 1
+  },
+  {
+    question: "What will len(\"Python\") return?",
+    options: ["5", "7", "6", "8"],
+    answer: 2
+  },
+  {
+    question: "Which is the default file opening mode in Python?",
+    options: ["write", "read", "append", "execute"],
+    answer: 1
+  },
+  {
+    question: "Which method adds an item to a list?",
+    options: ["insert()", "add()", "append()", "extend()"],
+    answer: 2
+  },
+  {
+    question: "Which symbol is used for single-line comments?",
+    options: ["#", "//", "/**/", "/*"],
+    answer: 0
+  },
+  {
+    question: "What does range(2, 5) return?",
+    options: ["2, 3, 4, 5", "2, 3, 4", "3, 4, 5", "2 to 5"],
+    answer: 1
+  },
+  {
+    question: "How many times will 'for i in range(3):' run?",
+    options: ["2", "3", "4", "Infinite"],
+    answer: 1
+  },
+  {
+    question: "Which of these is a valid variable name?",
+    options: ["1num", "my_var", "my-var", "import"],
+    answer: 1
+  },
+  {
+    question: "Which function converts a string to an integer?",
+    options: ["str()", "int()", "convert()", "float()"],
+    answer: 1
+  },
+  {
+    question: "What is the output of print(2 ** 3)?",
+    options: ["6", "5", "8", "9"],
+    answer: 2
+  },
+  {
+    question: "What does the 'break' keyword do?",
+    options: ["Pauses loop", "Exits loop", "Restarts loop", "Skips current iteration"],
+    answer: 1
+  },
+  {
+    question: "What does the 'continue' keyword do?",
+    options: ["Exits loop", "Pauses loop", "Skips to next iteration", "Ends program"],
+    answer: 2
+  },
+  {
+    question: "What is 'if 5 > 3:' an example of?",
+    options: ["Loop", "Function", "Conditional statement", "Syntax error"],
+    answer: 2
+  },
+  {
+    question: "Which function gives ASCII value of a character?",
+    options: ["chr()", "ord()", "ascii()", "asc()"],
+    answer: 1
+  },
+  {
+    question: "Which function gives character from ASCII value?",
+    options: ["chr()", "ord()", "ascii()", "to_char()"],
+    answer: 0
+  },
+  {
+    question: "Which of the following is immutable?",
+    options: ["list", "tuple", "dictionary", "set"],
+    answer: 1
+  },
+  {
+    question: "What is the output of 'hello'.upper()?",
+    options: ["hello", "Hello", "HELLO", "error"],
+    answer: 2
+  },
+  {
+    question: "Which function removes the last item from a list?",
+    options: ["pop()", "remove()", "delete()", "discard()"],
+    answer: 0
+  },
+  {
+    question: "What does open('file.txt', 'w') do?",
+    options: ["Opens file for writing", "Opens file for reading", "Appends to file", "Deletes file"],
+    answer: 0
+  },
+  {
+    question: "What does file.read() do?",
+    options: ["Reads file content", "Writes to file", "Deletes content", "Closes file"],
+    answer: 0
+  },
+  {
+    question: "What does the 'return' keyword do in a function?",
+    options: ["Calls the function", "Sends value back", "Ends loop", "Continues function"],
+    answer: 1
+  },
+  {
+    question: "What will len([10, 20, 30]) return?",
+    options: ["2", "3", "4", "5"],
+    answer: 1
+  },
+  {
+    question: "What is the output of type([])?",
+    options: ["tuple", "list", "dict", "string"],
+    answer: 1
+  },
+  {
+    question: "What is a Python module?",
+    options: ["A variable", "A file with functions", "A data type", "A loop"],
+    answer: 1
+  },
+  {
+    question: "Which module provides mathematical functions?",
+    options: ["string", "time", "math", "random"],
+    answer: 2
+  },
+  {
+    question: "How do you import a module?",
+    options: ["import math", "load(math)", "include math", "get math"],
+    answer: 0
+  },
+  {
+    question: "Which operator checks for equality?",
+    options: ["=", "==", ":=", "==="],
+    answer: 1
+  },
+  {
+    question: "Which function opens a file in Python?",
+    options: ["open()", "file()", "get()", "access()"],
+    answer: 0
+  },
+  {
+    question: "'w' vs 'a' mode in file opening:",
+    options: ["Both overwrite", "Both append", "'w' overwrites, 'a' appends", "Both create new file only"],
+    answer: 2
+  },
+  {
+    question: "What defines a code block in Python?",
+    options: ["Indentation", "Semicolon", "Brackets", "Tabs only"],
+    answer: 0
+  },
+  {
+    question: "What is recursion in Python?",
+    options: ["Function stopping itself", "Function calling itself", "Loop in function", "Importing same file twice"],
+    answer: 1
+  },
+  {
+    question: "What does E-Commerce stand for?",
+    options: ["Easy Communication", "Electronic Committee", "Electronic Commerce", "Engine Communication"],
+    answer: 2
+  },
+  {
+    question: "Which is a type of E-Commerce?",
+    options: ["C2W", "A2A", "B2C", "C3P0"],
+    answer: 2
+  },
+  {
+    question: "Which of these is a payment gateway?",
+    options: ["Flipkart", "WhatsApp", "Razorpay", "Adobe"],
+    answer: 2
+  },
+  {
+    question: "Which payment method does NOT use a card?",
+    options: ["Credit Card", "Debit Card", "UPI", "Visa"],
+    answer: 2
+  },
+  {
+    question: "What is the full form of SSL?",
+    options: ["Secure Software License", "Software Secure Layer", "Secure Socket Layer", "System Security Lock"],
+    answer: 2
+  },
+  {
+    question: "What is an advantage of E-Commerce?",
+    options: ["Open only on weekdays", "Manual updates", "Available 24x7", "Requires no internet"],
+    answer: 2
+  },
+  {
+    question: "What is a major risk in E-Commerce?",
+    options: ["Less users", "Lack of space", "Data theft", "No delivery"],
+    answer: 2
+  },
+  {
+    question: "Which is NOT an online payment method?",
+    options: ["Net banking", "UPI", "Cash on Delivery", "Credit card"],
+    answer: 2
+  },
+  {
+    question: "Which is a form of internet marketing?",
+    options: ["Road banners", "Email marketing", "TV ads", "Store branding"],
+    answer: 1
+  },
+  {
+    question: "What does SEO stand for?",
+    options: ["Safe Email Operations", "Search Engine Optimization", "Smart E-Commerce Output", "Secure E-Order"],
+    answer: 1
+  },
+  {
+    question: "What is a digital signature used for?",
+    options: ["Authentication", "Decoration", "Marketing", "Encryption"],
+    answer: 0
+  },
+  {
+    question: "Which is NOT internet marketing?",
+    options: ["Social media", "Television ad", "SEO", "Email marketing"],
+    answer: 1
+  },
+  {
+    question: "Which is safer for E-Commerce:",
+    options: ["HTTP", "HTTPS", "FTP", "WWW"],
+    answer: 1
+  },
+  {
+    question: "What is a smart card?",
+    options: ["A greeting card", "Card with chip", "Digital license", "Paper bill"],
+    answer: 1
+  },
+  {
+    question: "Which of the following is a B2B example?",
+    options: ["Retailer to consumer", "Shopper to shopper", "Manufacturer to wholesaler", "Seller to customer"],
+    answer: 2
+  }
+]
 };
 
 let currentQuestion = 0;
@@ -586,3 +838,4 @@ function loadQuiz(lesson) {
 
   showQuestion(currentQuestion);
 }
+
